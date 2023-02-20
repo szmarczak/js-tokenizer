@@ -212,7 +212,9 @@ const consumeNumber = () => {
 		case 'E':
 			++index;
 
-			if (c === '+' || c === '-') {
+			const ec = s.charAt(index);
+
+			if (ec === '+' || ec === '-') {
 				++index;
 			}
 
