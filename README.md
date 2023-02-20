@@ -23,7 +23,6 @@ The output format is:
 ['TemplateHead',             startIndex, endIndex, string]
 ['TemplateMiddle',           startIndex, endIndex, string]
 ['TemplateTail',             startIndex, endIndex, string]
-['TemplateTail',             startIndex, endIndex, string]
 ['IdentifierName',           startIndex, endIndex, string]
 ['PrivateIdentifier',        startIndex, endIndex, string]
 ```
