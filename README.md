@@ -1,6 +1,6 @@
 # js-tokenizer
 
-Fast JavaScript tokenizer. Not published on NPM. [Single file](https://raw.githubusercontent.com/szmarczak/js-tokenizer/main/tokenizer.js). [MIT License](https://github.com/szmarczak/js-tokenizer/blob/main/LICENSE).
+Fast JavaScript tokenizer. Not published on NPM. [Single file](https://raw.githubusercontent.com/szmarczak/js-tokenizer/main/tokenizer.js). [MIT License](https://github.com/szmarczak/js-tokenizer/blob/main/LICENSE). If any of the below is a limitation, please use [SWC](https://github.com/swc-project/swc).
 
 ```
 1) 2.5 times faster than lydell/js-tokens (7s vs 17s | 1000 iterations | jquery-3.6.3.js)
