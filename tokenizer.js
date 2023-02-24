@@ -656,7 +656,7 @@ function* tokenizer() {
 				}
 			}
 
-			yield ['Punctuator', startIndex, punctuator];
+			yield ['Punctuator', startIndex, index, punctuator];
 
 			continue;
 		}
