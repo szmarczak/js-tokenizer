@@ -13,7 +13,7 @@ Fast JavaScript tokenizer. Not published on NPM. [Single file](https://raw.githu
 The output format is:
 
 ```js
-['Punctuator',                              index, string]
+['Punctuator',               startIndex, endIndex, string]
 ['SingleLineComment',        startIndex, endIndex, string]
 ['MultiLineComment',         startIndex, endIndex, string]
 ['RegularExpressionLiteral', startIndex, endIndex, string]
